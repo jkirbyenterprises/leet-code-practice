@@ -1,5 +1,4 @@
 const buySellStock = require('./index');
-const removeDuplicates = require('./index');
 
 test('buySellStock function exists', () => {
 	expect(typeof buySellStock).toEqual('function');
